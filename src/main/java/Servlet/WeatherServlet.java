@@ -8,7 +8,7 @@ import java.net.URL;
 
 @WebServlet("/WeatherServlet")
 public class WeatherServlet extends HttpServlet {
-    private static final String API_KEY = "de119ad0fbcd31c1d138b67f467f6779"; // Replace with your OpenWeather API key
+    private static final String API_KEY = "de119ad0fbcd31c1d138b67f467f6779"; 
     
     protected void doGet(HttpServletRequest request, HttpServletResponse response) 
             throws ServletException, IOException {
